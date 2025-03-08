@@ -17,6 +17,8 @@ import * as XLSX from "xlsx";
 import { HiBarsArrowUp } from "react-icons/hi2";
 import Image from 'next/image';
 const PieChartComponent = dynamic(() => import('./PieChartComponent'), { ssr: false });
+/* eslint-disable @typescript-eslint/no-unused-vars */
+
 
 // Modifica la definizione di API_URL
 // const API_URL = process.env.NODE_ENV === 'development' 
